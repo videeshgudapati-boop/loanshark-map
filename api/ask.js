@@ -25,5 +25,4 @@ export default async function handler(req, res) {
     res.json({ content: [{ text: data.choices[0].message.content }] })
   } else {
     res.status(500).json({ error: JSON.stringify(data) })
-  }
-}
+  }}
