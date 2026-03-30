@@ -220,7 +220,7 @@ function App() {
             { name: 'Tallahassee-Leon Federal Credit Union', rate: '~18% APR', phone: '(850) 576-4151', type: 'Credit Union' },
             { name: 'Capital City Bank', rate: '~20% APR', phone: '(850) 402-7821', type: 'Community Bank' },
             { name: 'Florida Credit Union', rate: '~17% APR', phone: '(800) 284-1144', type: 'Credit Union' },
-            { name: 'Envision Credit Union', rate: '~15% APR', phone: '(850) 942-9000', type: 'Credit Union' }
+            { name: 'Addition Credit Union', rate: '~9% APR', phone: '(850) 942-9000', type: 'Credit Union' }
           ].map((alt, i) => (
             <div key={i} style={{ flex: '1', minWidth: '200px', padding: '15px', backgroundColor: '#0a0a0a', borderRadius: '8px', border: '1px solid #00cc00' }}>
               <div style={{ color: '#00cc00', fontWeight: 'bold', marginBottom: '8px' }}>{alt.type}</div>
