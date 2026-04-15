@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { Analytics } from '@vercel/analytics/react'
 
 function App() {
   const [loanAmount, setLoanAmount] = useState('')
@@ -90,7 +91,8 @@ function App() {
   }
 
   return (
-    <div style={{ backgroundColor: '#0a0a0a', minHeight: '100vh', color: 'white', fontFamily: 'Arial, sans-serif' }}>
+    <>
+      <div style={{ backgroundColor: '#0a0a0a', minHeight: '100vh', color: 'white', fontFamily: 'Arial, sans-serif' }}>
 
       {/* Header */}
       <div style={{ backgroundColor: '#1a1a1a', padding: '20px', borderBottom: '2px solid #ff3333', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '10px' }}>
@@ -256,7 +258,9 @@ function App() {
         </div>
       </div>
 
-    </div>
+      </div>
+      <Analytics />
+    </>
   )
 }
 
